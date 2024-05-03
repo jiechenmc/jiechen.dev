@@ -9,7 +9,7 @@ const Projects = () => {
                 <h1 className="my-4 text-4xl light:text-gray-700 dark:text-base-content font-bold text-center">
                     🔥 Projects 🔥
                 </h1>
-                <div className="flex-col justify-center mx-3">
+                <div className="flex-col justify-center mx-4">
                     {PROJECTS.toReversed().toSorted((project: ProjectElement) => {
                         return project.completed ? 0 : -1
                     }).map((project: ProjectElement) => (
