@@ -1,8 +1,8 @@
 'use client'
 import { Icon } from '@iconify/react';
 import getIconElement from '../hooks/getIconElement';
-const defaultThumbnail = "/hero.jpg"
 import Link from 'next/link';
+import Image from 'next/image';
 
 export interface ProjectElement {
     title: string;
@@ -31,29 +31,18 @@ export const PROJECTS = [
         title: "Where It Snows",
         date: "Winter 2020",
         description:
-            "One of my very first ever Hackathons. Won 4th place at NC Hacks.",
+            "One of my very first ever Hackathons before college. Won 4th place at NC Hacks.",
         repo: "https://github.com/jiechenmc/NC-Hack",
         demo: "#",
         completed: true,
         stack: "Python,Flask,Google Cloud",
-        thumbnail: "/thumbnails/jiechen.dev.jpg"
-    },
-    {
-        title: "jiechen.dev",
-        date: "June 2022 -- Present",
-        description:
-            "Portfolio Website that has gone through many iterations to what it is today!",
-        repo: "https://github.com/jiechenmc/jiechen.dev",
-        demo: "https://jiechen.dev/",
-        completed: false,
-        stack: "TypeScript,React,Docker,TailwindCSS,Firebase",
-        thumbnail: "/thumbnails/jiechen.dev.jpg"
+        thumbnail: "/thumbnails/none.svg"
     },
     {
         title: "Gradus",
         date: "November 2022",
         description:
-            "RESTful API for grade distribution data scraped from SBU Classie Evals.",
+            "RESTful API written in FastAPI with grade distribution data from Stony Brook Class Evaluations.",
         repo: "https://github.com/jiechenmc/Gradus",
         demo: "#",
         completed: true,
@@ -63,12 +52,12 @@ export const PROJECTS = [
         title: "ARWU Scraper",
         date: "September 2022",
         description:
-            "Web scraper for Shanghi Ranking's academic ranking data.",
+            "Web scraper for Shanghi Ranking's academic ranking data. Incepted to avoid the pain of manual data collections and increased data set by 6x.",
         repo: "https://github.com/jiechenmc/shr-scraper-ultimate",
         demo: "#",
         completed: true,
         stack: "Python,Nodejs,Playwright",
-        thumbnail: "/thumbnails/gradus.jpg"
+        thumbnail: "/thumbnails/none.svg"
     }, {
         title: "Intrack",
         date: "September 2022",
@@ -78,7 +67,7 @@ export const PROJECTS = [
         demo: "#",
         completed: true,
         stack: "Solidjs,FastAPI,Sqlite,Docker",
-        thumbnail: "/thumbnails/gradus.jpg"
+        thumbnail: "/thumbnails/none.svg"
     },
     {
         title: "Distr",
@@ -88,7 +77,7 @@ export const PROJECTS = [
         repo: "https://github.com/jiechenmc/Distr",
         demo: "#",
         completed: true,
-        stack: "TypeScript,React,NextJS,TailwindCSS",
+        stack: "TypeScript,NextJS,TailwindCSS",
         thumbnail: "/thumbnails/distr.jpg"
     },
     {
@@ -104,13 +93,13 @@ export const PROJECTS = [
     },
     {
         title: "Loqi",
-        date: "January 2023 -- Present",
+        date: "Present",
         description:
             "Generative AI study application with Microservices architecture and deployed through Cloudflare Tunnels.",
         repo: "https://github.com/viLoqi",
         demo: "https://loqi.jiechen.dev",
         completed: false,
-        stack: "AWS,Google Cloud,go,nodejs,TypeScript,nextjs,traefik,tailwindCSS,cloudflare,Github Actions,docker,kubernetes,MongoDB",
+        stack: "Amazon Web Services,Google Cloud,go,TypeScript,nextjs,traefik,cloudflare,Github Actions,docker,kubernetes,MongoDB",
         thumbnail: "/thumbnails/loqi.png"
     },
     {
@@ -132,8 +121,19 @@ export const PROJECTS = [
         demo: "#",
         completed: true,
         stack: "Go, Bash",
-        thumbnail: "/thumbnails/ssh.png"
+        thumbnail: "/thumbnails/none.svg"
     },
+    {
+        title: "jiechen.dev v2",
+        date: "May 2024",
+        description:
+            "Portfolio Website that has gone through many iterations to what it is today!",
+        repo: "https://github.com/jiechenmc/jiechen.dev",
+        demo: "https://jiechen.dev/",
+        completed: true,
+        stack: "TypeScript,Nextjs,TailwindCSS",
+        thumbnail: "/thumbnails/jiechen.dev.jpg"
+    }
 ];
 
 
@@ -151,13 +151,13 @@ const ProjectEntries = ({
     const icons = stack.split(",").map((e: string) => getIconElement(e.trim()));
 
     return (
-        <div className="flex justify-center mb-2">
+        <div className="flex justify-center mb-2 ">
             <div
-                className={`flex w-max max-w-2xl mb-2 border-2 rounded-lg shadow-lg indicator border-success`}
+                className={`flex justify-center w-full lg:max-w-4xl mb-2 border-2 rounded-lg shadow-lg indicator border-success `}
             >
                 <div className="card sm:card-side">
-                    <figure><img src={thumbnail ?? defaultThumbnail} className="aspect-square w-80 p-4" alt="Project Thumbnail" /></figure>
-                    <div className="card-body">
+                    <figure className='flex-shrink-0 flex-grow-0 md:w-80 md:h-80'><Image src={thumbnail!} width="320" height="320" className=" p-4" alt="Project Thumbnail" /></figure>
+                    <div className="card-body w-full">
                         <h2 className="card-title text-center ">
                             <p>{title}</p>
                         </h2>
@@ -180,7 +180,7 @@ const ProjectEntries = ({
                         </div>
                         <p className="prose">{description}</p>
                         <div className="divider mb-1">Tech Stack</div>
-                        <div className="flex gap-1 mb-1 justify-center">{icons}</div>
+                        <div className="flex gap-2 mb-1 justify-center">{icons}</div>
                     </div>
                 </div>
             </div>

@@ -7,7 +7,7 @@ const ICONS: { [key: string]: React.ReactElement } = {
     javascript: <Icon icon="logos:javascript" width={width} height={height} />,
     traefik: <Icon icon="devicon:traefikproxy" width={width} height={height} />,
     cloudflare: <Icon icon="logos:cloudflare-icon" width={width} height={height} />,
-    aws: <Icon icon="logos:aws" width={width} height={height} />,
+    amazon_web_services: <Icon icon="logos:aws" width={width} height={height} />,
     jquery: <Icon icon="devicon:jquery" width={width} height={height} />,
     google_cloud: <Icon icon="logos:google-cloud" width={width} height={height} />,
     ".net_core": <Icon icon="devicon:dotnetcore" width={width} height={height} />,

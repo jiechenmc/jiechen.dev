@@ -70,10 +70,10 @@ const ClassEntries = ({
     graduate,
 }: ClassElement) => {
     return (
-        <tr>
+        <tr className="prose">
             <td className={`${graduate ? "text-info" : "text-success"}`}>{courseCode}</td>
             <td>{courseName}</td>
-            <td>{instructor}</td>
+            <td className="hidden md:block">{instructor}</td>
         </tr>
     );
 };

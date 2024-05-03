@@ -55,7 +55,7 @@ const Timeline = () => {
             title: "Vertically Integrated Projects Team Lead",
             company: "Stony Brook University",
             body: "",
-            tools: "AWS,Google Cloud,go,nodejs,TypeScript,nextjs,traefik,tailwindCSS,cloudflare,Github Actions,docker,kubernetes,MongoDB"
+            tools: "Amazon Web Services,Google Cloud,go,nodejs,nextjs,traefik,cloudflare,Github Actions,docker,kubernetes,MongoDB"
         },
         {
             date: "Summer 2022",
@@ -73,7 +73,7 @@ const Timeline = () => {
         },]
 
 
-    return <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical ">
+    return <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
         {timelineItems.map((el: TimelineSchema, idx: number) => <TimelineItem key={el.title} {...el} end={idx % 2 !== 0} />)}
     </ul>;
 }

@@ -7,7 +7,7 @@ import Summary from "./Summary"
 
 export default function Home() {
   return (
-    <main className="">
+    <main className="overflow-hidden">
       <Hero />
       <div className="justify-evenly sm:flex-col md:flex-row">
         <About />

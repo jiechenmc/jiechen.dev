@@ -23,12 +23,12 @@ const Education = () => {
                 <div className="overflow-x-auto">
                     <table className="table w-full">
                         <thead>
-                            <tr>
-                                <th className="text-base-200 md:text-base-content">
+                            <tr className="prose">
+                                <th className="text-base-content md:text-base-content">
                                     Course Code
                                 </th>
                                 <th>Course Name</th>
-                                <th>Instructor</th>
+                                <th className="hidden md:block">Instructor</th>
                             </tr>
                         </thead>
                         <tbody>
