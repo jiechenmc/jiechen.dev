@@ -17,6 +17,28 @@ export interface ProjectElement {
 
 export const PROJECTS = [
     {
+        title: "Bazaar Prices",
+        date: "Summer 2020",
+        description:
+            "A simple web application get to latest Bazaar prices for Hypixel Skyblock.",
+        repo: "https://github.com/jiechenmc/bazaarPrices",
+        demo: "https://jiechenmc.github.io/bazaarPrices/",
+        completed: true,
+        stack: "Python,JavaScript",
+        thumbnail: "/thumbnails/jiechen.dev.jpg"
+    },
+    {
+        title: "Where It Snows",
+        date: "Winter 2020",
+        description:
+            "One of my very first ever Hackathons. Won 4th place at NC Hacks.",
+        repo: "https://github.com/jiechenmc/NC-Hack",
+        demo: "#",
+        completed: true,
+        stack: "Python,Flask,Google Cloud",
+        thumbnail: "/thumbnails/jiechen.dev.jpg"
+    },
+    {
         title: "jiechen.dev",
         date: "June 2022 -- Present",
         description:
@@ -84,11 +106,11 @@ export const PROJECTS = [
         title: "Loqi",
         date: "January 2023 -- Present",
         description:
-            "Loqi is a student-focused chat application that enables current students to connect with past students of courses they are interested in, fostering community and increasing educational resources",
+            "Generative AI study application with Microservices architecture and deployed through Cloudflare Tunnels.",
         repo: "https://github.com/viLoqi",
         demo: "https://loqi.jiechen.dev",
         completed: false,
-        stack: "Go,NextJS,Docker,NGINX",
+        stack: "AWS,Google Cloud,go,nodejs,TypeScript,nextjs,traefik,tailwindCSS,cloudflare,Github Actions,docker,kubernetes,MongoDB",
         thumbnail: "/thumbnails/loqi.png"
     },
     {

@@ -55,7 +55,7 @@ const Timeline = () => {
             title: "Vertically Integrated Projects Team Lead",
             company: "Stony Brook University",
             body: "",
-            tools: "AWS,go,nodejs,nextjs,traefik,tailwindCSS,cloudflare,Github Actions,docker,kubernetes,MongoDB"
+            tools: "AWS,Google Cloud,go,nodejs,TypeScript,nextjs,traefik,tailwindCSS,cloudflare,Github Actions,docker,kubernetes,MongoDB"
         },
         {
             date: "Summer 2022",

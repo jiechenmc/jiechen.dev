@@ -4,6 +4,7 @@ const width = 24;
 const height = 24;
 
 const ICONS: { [key: string]: React.ReactElement } = {
+    javascript: <Icon icon="logos:javascript" width={width} height={height} />,
     traefik: <Icon icon="devicon:traefikproxy" width={width} height={height} />,
     cloudflare: <Icon icon="logos:cloudflare-icon" width={width} height={height} />,
     aws: <Icon icon="logos:aws" width={width} height={height} />,
@@ -22,7 +23,7 @@ const ICONS: { [key: string]: React.ReactElement } = {
     python: <Icon icon="logos:python" width={width} height={height} />,
     firebase: <Icon icon="logos:firebase" width={width} height={height} />,
     mysql: <Icon icon="logos:mysql-icon" width={width} height={height} />,
-    flask: <Icon icon="logos:flask" width={width} height={height} />,
+    flask: <Icon className="dark:fill-white" icon="logos:flask" width={width} height={height} />,
     docker: <Icon icon="logos:docker-icon" width={width} height={height} />,
     bash: <Icon icon="logos:bash-icon" width={width} height={height} />,
     fastapi: <Icon icon="logos:fastapi-icon" width={width} height={height} />,
