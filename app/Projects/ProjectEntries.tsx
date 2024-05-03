@@ -99,7 +99,7 @@ export const PROJECTS = [
         repo: "https://github.com/viLoqi",
         demo: "https://loqi.jiechen.dev",
         completed: false,
-        stack: "Amazon Web Services,Google Cloud,go,TypeScript,nextjs,traefik,cloudflare,Github Actions,docker,kubernetes,MongoDB",
+        stack: "Amazon Web Services,Google Cloud,go,traefik,cloudflare,Github Actions,docker,kubernetes,MongoDB",
         thumbnail: "/thumbnails/loqi.png"
     },
     {
