@@ -2,6 +2,7 @@
 import { Icon } from '@iconify/react';
 import getIconElement from '../hooks/getIconElement';
 const defaultThumbnail = "/hero.jpg"
+import Link from 'next/link';
 
 export interface ProjectElement {
     title: string;
@@ -63,7 +64,7 @@ export const PROJECTS = [
         description:
             "Distr is a way for students to view past grade data distribution with interactive charts created by Chart.js",
         repo: "https://github.com/jiechenmc/Distr",
-        demo: "https://distr.jiechen.dev/",
+        demo: "#",
         completed: true,
         stack: "TypeScript,React,NextJS,TailwindCSS",
         thumbnail: "/thumbnails/distr.jpg"
@@ -85,7 +86,7 @@ export const PROJECTS = [
         description:
             "Loqi is a student-focused chat application that enables current students to connect with past students of courses they are interested in, fostering community and increasing educational resources",
         repo: "https://github.com/viLoqi",
-        demo: "https://vm1.cs.stonybrook.edu/",
+        demo: "https://loqi.jiechen.dev",
         completed: false,
         stack: "Go,NextJS,Docker,NGINX",
         thumbnail: "/thumbnails/loqi.png"
@@ -96,7 +97,7 @@ export const PROJECTS = [
         description:
             "Cloud automation and monitor project using tools like Go, Kubernetes, Terraform, Grafana, Prometheus.",
         repo: "https://github.com/jiechenmc/Kamrui",
-        demo: "",
+        demo: "#",
         completed: true,
         stack: "Go, Kubernetes, Terraform, Grafana, Prometheus, MongoDB",
         thumbnail: "/thumbnails/kamrui.png"
@@ -106,7 +107,7 @@ export const PROJECTS = [
         description:
             "Go script to concurrently connect, transfer, and execute commands on remote machines.",
         repo: "https://github.com/jiechenmc/SSH_Cloud_Agent",
-        demo: "",
+        demo: "#",
         completed: true,
         stack: "Go, Bash",
         thumbnail: "/thumbnails/ssh.png"
@@ -143,16 +144,16 @@ const ProjectEntries = ({
                                 <p>{date}</p>
                             </div>
                             <div className="flex gap-1">
-                                <a href={repo}>
+                                <Link href={repo}>
                                     <button className="btn bg-transparent p-1 border-0 hover:bg-gray-300 dark:hover:bg-gray-300 text-xl">
                                         <Icon icon="mdi:github" width="24" height="24" />
                                     </button>
-                                </a>
-                                <a href={demo}>
-                                    <button className="btn bg-transparent p-1 border-0 hover:bg-gray-300 dark:hover:bg-gray-300 text-xl">
+                                </Link>
+                                <Link href={demo === "#" ? {} : demo}>
+                                    <button className="btn bg-transparent p-1 border-0 hover:bg-gray-300 dark:hover:bg-gray-300 text-xl disabled:hidden" disabled={demo === "#"}>
                                         <Icon icon="mdi:link" width="24" height="24" />
                                     </button>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                         <p className="prose">{description}</p>

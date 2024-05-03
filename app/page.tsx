@@ -2,6 +2,8 @@ import Hero from "./Hero";
 import About from "./About";
 import Education from "./Education";
 import Projects from "./Projects";
+import Footer from "./Footer";
+import Summary from "./Summary"
 
 export default function Home() {
   return (
@@ -9,13 +11,11 @@ export default function Home() {
       <Hero />
       <div className="justify-evenly sm:flex-col md:flex-row">
         <About />
-        {/* <Classes /> */}
         <Education />
-        {/* <Projects /> */}
         <Projects />
-        {/* <TechStack /> */}
+        <Summary />
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </main>
   );
 }

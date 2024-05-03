@@ -1,5 +1,6 @@
 import ThemeToggle from './ThemeToggle';
 import { Icon } from '@iconify/react';
+import Link from 'next/link';
 
 const Navbar = () => {
     return (
@@ -7,28 +8,28 @@ const Navbar = () => {
             <div>
                 <ul className="menu menu-horizontal">
                     <li>
-                        <a href="#about">
+                        <Link href="#about">
                             <Icon icon="mdi:about-circle-outline" width="24" height="24" />
                             <p className="hidden md:block">About</p>
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="#education">
+                        <Link href="#education">
                             <Icon icon="mdi:book-education-outline" width="24" height="24" />
                             <p className="hidden md:block">Education</p>
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="#projects">
+                        <Link href="#projects">
                             <Icon icon="mdi:git" width="24" height="24" />
                             <p className="hidden md:block">Projects</p>
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="#techstack">
+                        <Link href="#summary">
                             <Icon icon="mdi:puzzle" width="24" height="24" />
-                            <p className="hidden md:block">Tech Stack</p>
-                        </a>
+                            <p className="hidden md:block">summary</p>
+                        </Link>
                     </li>
                     <li>
                         <ThemeToggle />

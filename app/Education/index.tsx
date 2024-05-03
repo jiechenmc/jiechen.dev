@@ -1,11 +1,10 @@
 import ClassEntries, { ClassElement, GPA, CLASSES } from "./ClassEntries";
-import SBULogo from "../../assets/sbu.webp";
 import Image from "next/image";
 
 const Education = () => {
     return (
         <div id="education" className="">
-            <h1 className="relative text-2xl text-base-content font-bold text-center my-4">
+            <h1 className="relative text-4xl text-base-content font-bold text-center my-4">
                 Education
             </h1>
 
