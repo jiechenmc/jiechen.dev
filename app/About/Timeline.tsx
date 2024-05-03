@@ -3,6 +3,7 @@ import TimelineItem from "./TimelineItem";
 interface TimelineSchema {
     date: string,
     title: string,
+    company: string,
     body: string,
     tools: string
 }
@@ -11,20 +12,64 @@ const Timeline = () => {
     const timelineItems = [
         {
             date: "Summer 2024",
-            title: "Cloud Infrastructure Engineer Intern @ Robert Half",
-            body: "Leveraged Azure to deliver business solutions.",
+            title: "Cloud Infrastructure Engineer Intern",
+            company: "Robert Half",
+            body: "",
             tools: "azure"
         },
         {
-            date: "Summer 2023",
-            title: "Software Engineering Co-Op @ Con Edison",
-            body: "Learned about the electrical utility business and built C# applications.",
-            tools: "c#,sqlite"
+            date: "Spring 2024",
+            title: "Systems Fundamentals I Teaching Assistant",
+            company: "Stony Brook University",
+            body: "",
+            tools: "C"
+        },
+        {
+            date: "Fall 2023",
+            title: "Software Development Teaching Assistant",
+            company: "Stony Brook University",
+            body: "",
+            tools: "HTML,CSS,nodejs,react,MongoDB"
         }, {
+            date: "Fall 2023",
+            title: "President",
+            company: "Google Developer Student Clubs",
+            body: "",
+            tools: "Google Cloud,terraform,react,docker,nginx"
+        },
+        {
+            date: "Summer 2023",
+            title: "Software Engineering Co-Op",
+            company: "Con Edison",
+            body: "",
+            tools: "c#,jQuery,.NET Core,SQLite"
+        },
+        {
+            date: "Spring 2023",
+            title: "Campus Residence IT Programmer",
+            company: "Stony Brook University",
+            body: "",
+            tools: "python,c#,TypeScript,react,mysql"
+        }, {
+            date: "Fall 2022",
+            title: "Vertically Integrated Projects Team Lead",
+            company: "Stony Brook University",
+            body: "",
+            tools: "AWS,go,nodejs,nextjs,traefik,tailwindCSS,cloudflare,Github Actions,docker,kubernetes,MongoDB"
+        },
+        {
             date: "Summer 2022",
-            title: "SRE Fellowship @ MLH and Meta",
-            body: "Conducted system load testing, built CI/CD pipelines, and set up system monitoring.",
-            tools: "docker,prometheus,grafana,python,nginx"
+            title: "Site Reliability Engineering Fellowship",
+            company: "Major League Hacking",
+            body: "",
+            tools: "python,docker,prometheus,grafana,NGINX,DigitalOcean,Github Actions"
+        },
+        {
+            date: "Fall 2021",
+            title: "Institutional Research Student Assistant",
+            company: "Stony Brook University",
+            body: "",
+            tools: "python,nodejs,playwright"
         },]
 
 

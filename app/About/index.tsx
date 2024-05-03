@@ -12,7 +12,7 @@ export const About = () => {
           self.name = "Jie Chen"
           self.hometown = "Fuzhou, China"
           self.college = "Stony Brook University"
-          self.expected_graduation_date = "May 2025"
+          self.expected_graduation_date = "May 2026"
           self.interests_and_hobbies =
           [
               "Gaming 🎮",

@@ -4,6 +4,14 @@ const width = 24;
 const height = 24;
 
 const ICONS: { [key: string]: React.ReactElement } = {
+    traefik: <Icon icon="devicon:traefikproxy" width={width} height={height} />,
+    cloudflare: <Icon icon="logos:cloudflare-icon" width={width} height={height} />,
+    aws: <Icon icon="logos:aws" width={width} height={height} />,
+    jquery: <Icon icon="devicon:jquery" width={width} height={height} />,
+    google_cloud: <Icon icon="logos:google-cloud" width={width} height={height} />,
+    ".net_core": <Icon icon="devicon:dotnetcore" width={width} height={height} />,
+    css: <Icon icon="logos:css-3" width={width} height={height} />,
+    html: <Icon icon="logos:html-5" width={width} height={height} />,
     "c#": <Icon icon="logos:c-sharp" width={width} height={height} />,
     azure: <Icon icon="logos:microsoft-azure" width={width} height={height} />,
     react: <Icon icon="logos:react" width={width} height={height} />,
@@ -21,7 +29,7 @@ const ICONS: { [key: string]: React.ReactElement } = {
     mongodb: <Icon icon="logos:mongodb-icon" width={width} height={height} />,
     digitalocean: <Icon icon="logos:digital-ocean-icon" width={width} height={height} />,
     heroku: <Icon icon="logos:heroku-icon" width={width} height={height} />,
-    tailwind: (
+    tailwindcss: (
         <Icon icon="logos:tailwindcss-icon" width={width} height={height} />
     ),
     nginx: <Icon icon="logos:nginx" width={width} height={height} />,
