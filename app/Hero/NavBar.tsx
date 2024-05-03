@@ -28,7 +28,7 @@ const Navbar = () => {
                     <li>
                         <Link href="#summary">
                             <Icon icon="mdi:puzzle" width="24" height="24" />
-                            <p className="hidden md:block">summary</p>
+                            <p className="hidden md:block">Summary</p>
                         </Link>
                     </li>
                     <li>

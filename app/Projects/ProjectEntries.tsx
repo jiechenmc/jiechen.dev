@@ -25,7 +25,7 @@ export const PROJECTS = [
         demo: "https://jiechenmc.github.io/bazaarPrices/",
         completed: true,
         stack: "Python,JavaScript",
-        thumbnail: "/thumbnails/jiechen.dev.jpg"
+        thumbnail: "/thumbnails/none.svg"
     },
     {
         title: "Where It Snows",
