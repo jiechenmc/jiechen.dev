@@ -1,5 +1,5 @@
 'use client'
-
+import { Icon } from "@iconify/react";
 import ProjectEntries, { ProjectElement, PROJECTS } from "./ProjectEntries";
 
 const Projects = () => {
@@ -17,9 +17,13 @@ const Projects = () => {
                         <div id={`item${index}`} key={crypto.randomUUID()} className="carousel-item w-full" >
                             <ProjectEntries
                                 {...project}
-                            /></div>
+                            />
+                            <Icon icon="mdi:gesture-swipe-horizontal" color="#00b3f0" className="absolute right-[5%] translate-y-4 lg:hidden md:w-12 md:h-12" width="24" height="24" />
+                        </div>
                     ))}
                 </div>
+
+
                 <div className="flex justify-center w-full py-2 gap-2">
                     {PROJECTS.map((a, index) =>
                         <a key={crypto.randomUUID()} href={`#item${index}`} className={`btn btn-xs ${index < PROJECTS.length / 2 ? "text-green-500" : "text-green-700"}`}>{index}</a>
