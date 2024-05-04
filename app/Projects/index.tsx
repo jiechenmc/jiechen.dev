@@ -22,7 +22,7 @@ const Projects = () => {
                 </div>
                 <div className="flex justify-center w-full py-2 gap-2">
                     {PROJECTS.map((a, index) =>
-                        <a key={crypto.randomUUID()} href={`#item${index}`} className="btn btn-xs">{index}</a>
+                        <a key={crypto.randomUUID()} href={`#item${index}`} className={`btn btn-xs ${index < PROJECTS.length / 2 ? "text-blue-500" : "text-blue-700"}`}>{index}</a>
                     )}
                 </div>
             </div>
