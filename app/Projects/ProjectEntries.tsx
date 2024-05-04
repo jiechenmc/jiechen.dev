@@ -162,7 +162,7 @@ const ProjectEntries = ({
                             <p>{title}</p>
                         </h2>
                         <div className="flex justify-center">
-                            <div className={`badge badge-md mr-1 capitalize mt-auto mb-auto bg-transparent w-max text-md ${completed ? "text-success" : "text-info"}`}>
+                            <div className={`badge badge-md p-2 capitalize mt-auto mb-auto bg-transparent w-max text-md ${completed ? "text-success" : "text-info"}`}>
                                 <p>{date}</p>
                             </div>
                             <div className="flex gap-1">

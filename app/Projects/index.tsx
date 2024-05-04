@@ -18,18 +18,17 @@ const Projects = () => {
                             <ProjectEntries
                                 {...project}
                             />
+                            {'ontouchstart' in window ? <Icon icon="mdi:gesture-swipe-horizontal" color="#00b3f0" className="absolute right-[5%] lg:right-[10%] lgp:right-[20%] translate-y-4 md:w-12 md:h-12 animate-pulse" width="24" height="24" />
+                                : <></>}
                         </div>
                     ))}
                 </div>
+
 
                 <div className="flex justify-center w-full py-2 gap-2">
                     {PROJECTS.map((_, index) =>
                         <a key={crypto.randomUUID()} href={`#item${index}`} className={`btn btn-xs ${index < PROJECTS.length / 2 ? "text-green-500" : "text-green-700"}`}>{index}</a>
                     )}
-                </div>
-                <div role="alert" className="alert w-fit mx-auto prose text-info">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="stroke-info shrink-0 w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                    <span>You can swipe if you have touch screen.</span>
                 </div>
             </div>
             {/* <div className="flex justify-center">
