@@ -11,9 +11,9 @@ const config: Config = {
   theme: {
     extend: {
       screens: {
-        sm: "425px",
-        md: "768px",
-        lg: "1024px",
+        sm: "425px", // phones 
+        md: "768px", // tablets
+        lg: "1024px", // small laptop
         lgp: "1440px",
         hd: "1920px",
         tv: "2560px",
