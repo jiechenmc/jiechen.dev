@@ -151,7 +151,7 @@ const ProjectEntries = ({
     const icons = stack.split(",").map((e: string) => getIconElement(e.trim()));
 
     return (
-        <div className="flex justify-center mb-2 ">
+        <div className="flex justify-center mb-2 mx-auto">
             <div
                 className={`flex justify-center w-full lg:max-w-4xl mb-2 border-2 rounded-lg shadow-lg indicator border-success `}
             >

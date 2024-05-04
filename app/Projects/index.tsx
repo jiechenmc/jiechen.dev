@@ -9,15 +9,21 @@ const Projects = () => {
                 <h1 className="my-4 text-4xl light:text-gray-700 dark:text-base-content font-bold text-center">
                     🔥 Projects 🔥
                 </h1>
-                <div className="flex-col justify-center mx-4">
+
+                <div className="carousel w-full">
                     {PROJECTS.toReversed().toSorted((project: ProjectElement) => {
                         return project.completed ? 0 : -1
-                    }).map((project: ProjectElement) => (
-                        <ProjectEntries
-                            key={crypto.randomUUID()}
-                            {...project}
-                        />
+                    }).map((project: ProjectElement, index: number) => (
+                        <div id={`item${index}`} key={crypto.randomUUID()} className="carousel-item w-full" >
+                            <ProjectEntries
+                                {...project}
+                            /></div>
                     ))}
+                </div>
+                <div className="flex justify-center w-full py-2 gap-2">
+                    {PROJECTS.map((a, index) =>
+                        <a key={crypto.randomUUID()} href={`#item${index}`} className="btn btn-xs">{index}</a>
+                    )}
                 </div>
             </div>
             <div className="flex justify-center">
@@ -26,7 +32,7 @@ const Projects = () => {
                     id="GithubStats"
                 /> */}
             </div>
-        </div>
+        </div >
     );
 };
 
