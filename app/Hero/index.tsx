@@ -10,7 +10,7 @@ const Hero = () => {
             <NavBar />
             <div className="hero min-h-screen bg-base-200 justify-center text-center" >
                 <div className="hero-content grid lg:flex-row justify-center p-0">
-                    <Image src={"/hero.jpg"} className="max-w-sm rounded-lg shadow-2xl ml-auto mr-auto" width="384" height="380" alt="A funny meme about programemrs" />
+                    <Image src={"/hero.jpg"} priority className="max-w-sm rounded-lg shadow-2xl ml-auto mr-auto" width="384" height="380" alt="A funny meme about programemrs" />
                     <Image id="AnimatedIntroduction" className="w-full object-center text-center justify-center flex" src={"/typing-intro-dark.svg"} width="390" height="45" alt=" My interests are Software Engineering and Site Reliability Engineering!" />
                     <div className="prose">
                         <h3 className="text-success">SBU &#39;26 -- Accelerated B.S./M.S. of Computer Science</h3>
