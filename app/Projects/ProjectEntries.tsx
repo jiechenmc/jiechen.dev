@@ -156,7 +156,7 @@ const ProjectEntries = ({
                 className={`flex justify-center w-full lg:max-w-4xl mb-2 border-2 rounded-lg shadow-lg indicator border-success `}
             >
                 <div className="card md:card-side">
-                    <figure className='flex-shrink-0 flex-grow-0 md:w-80 md:h-80'><Image src={thumbnail!} width="320" height="320" className="p-4" alt="Project Thumbnail" /></figure>
+                    <figure className='flex-shrink-0 flex-grow-0 w-80 h-80 mx-auto'><Image src={thumbnail!} width="320" height="320" className="p-4" alt="Project Thumbnail" /></figure>
                     <div className="card-body w-full">
                         <h2 className="card-title text-center ">
                             <p>{title}</p>
