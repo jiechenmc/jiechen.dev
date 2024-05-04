@@ -18,10 +18,10 @@ const Projects = () => {
                             <ProjectEntries
                                 {...project}
                             />
-                            {'ontouchstart' in window ? <Icon icon="mdi:gesture-swipe-horizontal" color="#00b3f0" className="absolute right-[5%] lg:right-[10%] lgp:right-[20%] translate-y-4 md:w-12 md:h-12 animate-pulse" width="24" height="24" />
-                                : <></>}
                         </div>
                     ))}
+                    {typeof window !== "undefined" && 'ontouchstart' in window ? <Icon icon="mdi:gesture-swipe-horizontal" color="#00b3f0" className="absolute right-[5%] lg:right-[10%] lgp:right-[20%] translate-y-4 md:w-12 md:h-12 animate-pulse" width="24" height="24" />
+                        : <></>}
                 </div>
 
 
