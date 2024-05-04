@@ -6,7 +6,7 @@ const ViewGithubButton = () => {
         className="btn btn-accent"
         href="https://github.com/jiechenmc"
     >
-        <Icon icon="mdi:github" color='white' width="24" height="24" />
+        <Icon icon="mdi:github" width="24" height="24" />
     </Link>);
 }
 

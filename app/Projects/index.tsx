@@ -25,7 +25,7 @@ const Projects = () => {
                 </div>
 
 
-                <div className="flex justify-center w-full py-2 gap-2">
+                <div className="grid grid-cols-10 mx-auto max-w-md py-2 gap-2 px-4">
                     {PROJECTS.map((_, index) =>
                         <a key={crypto.randomUUID()} href={`#item${index}`} className={`btn btn-xs ${index < PROJECTS.length / 2 ? "text-green-500" : "text-green-700"}`}>{index}</a>
                     )}

@@ -4,6 +4,7 @@ const width = 24;
 const height = 24;
 
 const ICONS: { [key: string]: React.ReactElement } = {
+    markdown: <Icon icon="logos:markdown" className="dark:fill-white" width={width} height={height} />,
     javascript: <Icon icon="logos:javascript" width={width} height={height} />,
     traefik: <Icon icon="devicon:traefikproxy" width={width} height={height} />,
     cloudflare: <Icon icon="logos:cloudflare-icon" width={width} height={height} />,
