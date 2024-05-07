@@ -35,7 +35,7 @@ const ICONS: { [key: string]: React.ReactElement } = {
         <Icon icon="logos:tailwindcss-icon" width={width} height={height} />
     ),
     nginx: <Icon icon="logos:nginx" width={width} height={height} />,
-    solidjs: <Icon icon="logos:solidjs-icon" width={width} height={height} />,
+    "solid.js": <Icon icon="logos:solidjs-icon" width={width} height={height} />,
     sqlite: <Icon icon="logos:sqlite" width={width} height={height} />,
     github_actions: (
         <Icon icon="logos:github-actions" width={width} height={height} />
@@ -43,11 +43,11 @@ const ICONS: { [key: string]: React.ReactElement } = {
     go: <Icon icon="logos:go" width={width} height={height} />,
     c: <Icon icon="logos:c" width={width} height={height} />,
     deno: <Icon icon="logos:deno" width={width} height={height} />,
-    nodejs: <Icon icon="logos:nodejs-icon" width={width} height={height} />,
+    "node.js": <Icon icon="logos:nodejs-icon" width={width} height={height} />,
     java: <Icon icon="logos:java" width={width} height={height} />,
     fresh: <Icon icon="logos:fresh" width={width} height={height} />,
     puppeteer: <Icon icon="logos:puppeteer" width={width} height={height} />,
-    nextjs: <Icon icon="logos:nextjs-icon" width={width} height={height} />,
+    "next.js": <Icon icon="logos:nextjs-icon" width={width} height={height} />,
     terraform: <Icon icon="logos:terraform-icon" width={width} height={height} />,
     kubernetes: <Icon icon="logos:kubernetes" width={width} height={height} />,
     grafana: <Icon icon="logos:grafana" width={width} height={height} />,

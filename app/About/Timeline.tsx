@@ -15,7 +15,7 @@ const Timeline = () => {
             title: "Cloud Infrastructure Engineer Intern",
             company: "Robert Half",
             body: "",
-            tools: "azure"
+            tools: "Azure"
         },
         {
             date: "Spring 2024",
@@ -29,47 +29,47 @@ const Timeline = () => {
             title: "Software Development Teaching Assistant",
             company: "Stony Brook University",
             body: "",
-            tools: "HTML,CSS,nodejs,react,MongoDB"
+            tools: "HTML,CSS,Node.js,React,MongoDB"
         }, {
             date: "Fall 2023",
             title: "President",
             company: "Google Developer Student Clubs",
             body: "",
-            tools: "Google Cloud,terraform,react,docker,nginx"
+            tools: "Google Cloud,Terraform,React,Docker,NGINX"
         },
         {
             date: "Summer 2023",
             title: "Software Engineering Co-Op",
             company: "Con Edison",
             body: "",
-            tools: "c#,jQuery,.NET Core,SQLite"
+            tools: "C#,jQuery,.NET Core,SQLite"
         },
         {
             date: "Spring 2023",
             title: "Campus Residence IT Programmer",
             company: "Stony Brook University",
             body: "",
-            tools: "python,c#,TypeScript,react,mysql"
+            tools: "Python,C#,TypeScript,React,MySQL"
         }, {
             date: "Fall 2022",
             title: "Vertically Integrated Projects Team Lead",
             company: "Stony Brook University",
             body: "",
-            tools: "Amazon Web Services,Google Cloud,go,nodejs,nextjs,traefik,cloudflare,docker,kubernetes,MongoDB"
+            tools: "Amazon Web Services,Google Cloud,go,Node.js,Next.js,Traefik,Cloudflare,Docker,Kubernetes,MongoDB"
         },
         {
             date: "Summer 2022",
             title: "Site Reliability Engineering Fellowship",
             company: "Major League Hacking",
             body: "",
-            tools: "python,docker,prometheus,grafana,NGINX,DigitalOcean,Github Actions"
+            tools: "Python,Docker,Prometheus,Grafana,NGINX,DigitalOcean,Github Actions"
         },
         {
             date: "Fall 2021",
             title: "Institutional Research Student Assistant",
             company: "Stony Brook University",
             body: "",
-            tools: "python,nodejs,playwright"
+            tools: "Python,Node.js,Playwright"
         },]
 
 

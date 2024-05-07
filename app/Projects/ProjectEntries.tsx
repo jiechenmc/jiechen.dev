@@ -56,7 +56,7 @@ export const PROJECTS = [
         repo: "https://github.com/jiechenmc/shr-scraper-ultimate",
         demo: "#",
         completed: true,
-        stack: "Python,Nodejs,Playwright",
+        stack: "Python,Node.js,Playwright",
         thumbnail: "/thumbnails/none.svg"
     }, {
         title: "Intrack",
@@ -66,7 +66,7 @@ export const PROJECTS = [
         repo: "https://github.com/jiechenmc/intrack",
         demo: "#",
         completed: true,
-        stack: "Solidjs,FastAPI,Sqlite,Docker",
+        stack: "Solid.js,FastAPI,SQLite,Docker",
         thumbnail: "/thumbnails/none.svg"
     },
     {
@@ -99,7 +99,7 @@ export const PROJECTS = [
         repo: "https://github.com/viLoqi",
         demo: "https://loqi.jiechen.dev",
         completed: false,
-        stack: "Amazon Web Services,Google Cloud,go,traefik,cloudflare,Github Actions,docker,kubernetes,MongoDB",
+        stack: "Amazon Web Services,Google Cloud,go,Traefik,Cloudflare,Github Actions,Docker,Kubernetes,MongoDB",
         thumbnail: "/thumbnails/loqi.png"
     },
     {
