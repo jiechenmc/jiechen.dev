@@ -77,7 +77,7 @@ export const PROJECTS = [
         repo: "https://github.com/jiechenmc/Distr",
         demo: "#",
         completed: true,
-        stack: "TypeScript,NextJS,TailwindCSS",
+        stack: "TypeScript,Next.js,TailwindCSS",
         thumbnail: "/thumbnails/distr.jpg"
     },
     {
@@ -131,7 +131,7 @@ export const PROJECTS = [
         repo: "https://github.com/jiechenmc/jiechen.dev",
         demo: "https://jiechen.dev/",
         completed: true,
-        stack: "TypeScript,Nextjs,TailwindCSS",
+        stack: "TypeScript,Next.js,TailwindCSS",
         thumbnail: "/thumbnails/jiechen.dev.jpg"
     },
     {
@@ -142,7 +142,7 @@ export const PROJECTS = [
         repo: "https://github.com/jiechenmc/blog.jiechen.dev",
         demo: "https://blog.jiechen.dev/",
         completed: true,
-        stack: "Nextjs,Markdown",
+        stack: "Next.js,Markdown",
         thumbnail: "/thumbnails/blog.png"
     }
 ];
