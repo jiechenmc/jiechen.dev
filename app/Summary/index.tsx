@@ -1,5 +1,3 @@
-'use client'
-
 const Trends = () => {
     return (
         <div id="summary" className="">

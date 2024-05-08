@@ -1,4 +1,3 @@
-'use client'
 import { Icon } from '@iconify/react';
 import getIconElement from '../hooks/getIconElement';
 import Link from 'next/link';
