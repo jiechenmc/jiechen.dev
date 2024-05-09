@@ -1,4 +1,3 @@
-import ThemeToggle from './ThemeToggle';
 import { Icon } from '@iconify/react';
 import Link from 'next/link';
 
@@ -30,9 +29,6 @@ const Navbar = () => {
                             <Icon icon="mdi:puzzle" width="24" height="24" />
                             <p className="hidden md:block">Summary</p>
                         </Link>
-                    </li>
-                    <li>
-                        <ThemeToggle />
                     </li>
                 </ul>
             </div>

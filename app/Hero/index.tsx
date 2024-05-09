@@ -16,10 +16,6 @@ const Hero = () => {
                     <Image id="AnimatedIntroduction" className="w-full object-center text-center justify-center flex" src={"/typing-intro-dark.svg"} width="390" height="45" alt=" My interests are Software Engineering and Site Reliability Engineering!" />
                     <div className="prose">
                         <h3 className="text-success">SBU &#39;26 — Accelerated B.S./M.S. of Computer Science</h3>
-                        {/* <h1 className="text-success">GDSC Lead @ Google Developer Student Clubs</h1> */}
-                        {/* <p className="text-content">Computer Aide Temporary @ Con Edison</p>
-                        <p className="text-content">Campus Residence IT Technician and Programmer @ Stony Brook University</p>
-                        <p className="text-content">Production Engineering Fellow @ Major League Hacking</p> */}
                     </div>
                     <div className="hero-content flex-col">
                         <div className="flex gap-2">
