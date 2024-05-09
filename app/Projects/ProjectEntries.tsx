@@ -94,7 +94,7 @@ export const PROJECTS = [
         title: "Loqi",
         date: "Present",
         description:
-            "Generative AI study application with Microservices architecture and deployed through Cloudflare Tunnels.",
+            "Generative AI study application with Microservices architecture deployed through Cloudflare Tunnels.",
         repo: "https://github.com/viLoqi",
         demo: "https://loqi.jiechen.dev",
         completed: false,
