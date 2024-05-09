@@ -134,11 +134,11 @@ export const PROJECTS = [
         thumbnail: "/thumbnails/jiechen.dev.jpg"
     },
     {
-        title: "blog.jiechen.dev",
+        title: "BiBi",
         date: "May 2024",
         description:
             "Starting to write a blog to keep track of what I have learned.",
-        repo: "https://github.com/jiechenmc/blog.jiechen.dev",
+        repo: "https://github.com/jiechenmc/BiBi",
         demo: "https://blog.jiechen.dev/",
         completed: true,
         stack: "Next.js,Markdown",
