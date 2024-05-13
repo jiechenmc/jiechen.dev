@@ -29,7 +29,7 @@ const Hero = () => {
                                 <h3 className="font-bold">New Blog Post!</h3>
                                 <div className="text-xs">Go Concurrency with Goroutines</div>
                             </div>
-                            <Link href="https://blog.jiechen.dev/Go/Goroutines">
+                            <Link href="https://blog.jiechen.dev/Concurrency/Go/Goroutines">
                                 <button className="btn btn-sm text-error border-2 border-error hover:border-success hover:text-success">See</button>
                             </Link>
                         </div>
