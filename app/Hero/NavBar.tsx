@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Navbar = () => {
     return (
-        <div className="fixed text-sm flex justify-center w-full z-50 backdrop-blur">
+        <div className="fixed top-0 text-sm flex justify-center w-full z-50 bg-base-200 ">
             <div>
                 <ul className="menu menu-horizontal">
                     <li>
