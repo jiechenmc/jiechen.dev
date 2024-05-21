@@ -92,12 +92,12 @@ export const PROJECTS = [
     },
     {
         title: "Loqi",
-        date: "Present",
+        date: "August 2023",
         description:
             "Generative AI study application with Microservices architecture deployed through Cloudflare Tunnels.",
         repo: "https://github.com/viLoqi",
         demo: "https://loqi.jiechen.dev",
-        completed: false,
+        completed: true,
         stack: "Amazon Web Services,Google Cloud,go,Traefik,Cloudflare,Github Actions,Docker,Kubernetes,MongoDB",
         thumbnail: "/thumbnails/loqi.png"
     },
@@ -143,6 +143,16 @@ export const PROJECTS = [
         completed: true,
         stack: "Next.js,Markdown",
         thumbnail: "/thumbnails/blog.png"
+    }, {
+        title: "Packed",
+        date: "May 2024",
+        description:
+            "Kernel-level packet filter with eBPF xdp.",
+        repo: "https://github.com/jiechenmc/Packed.git",
+        demo: "#",
+        completed: true,
+        stack: "Azure,eBPF,React,Docker,C,Go",
+        thumbnail: "/thumbnails/packed.png"
     }
 ];
 

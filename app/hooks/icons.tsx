@@ -1,9 +1,11 @@
 import { Icon } from "@iconify/react";
+import Image from "next/image";
 
 const width = 24;
 const height = 24;
 
-const ICONS: { [key: string]: React.ReactElement } = {
+const ICONS: { [key: string]: React.ReactNode } = {
+    ebpf: <Image src="/thumbnails/ebpf.png" width={width} height={height} alt="ebpf logo" />,
     markdown: <Icon icon="logos:markdown" className="dark:fill-white" width={width} height={height} />,
     javascript: <Icon icon="logos:javascript" width={width} height={height} />,
     traefik: <Icon icon="devicon:traefikproxy" width={width} height={height} />,
