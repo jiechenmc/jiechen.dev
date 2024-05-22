@@ -12,7 +12,7 @@ interface Post {
     url: string
 }
 const Hero = () => {
-    const [latest, setLatest] = useState<Post>({ title: "", url: "https://blog.jiechen.dev/" })
+    const [latest, setLatest] = useState<Post>({ title: "--", url: "https://blog.jiechen.dev/" })
 
     useEffect(() => {
         fetch("https://blog.jiechen.dev/api/latest").then(r => r.json().then(d => setLatest(d)))
