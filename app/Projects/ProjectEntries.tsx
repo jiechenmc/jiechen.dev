@@ -130,7 +130,7 @@ export const PROJECTS = [
         repo: "https://github.com/jiechenmc/jiechen.dev",
         demo: "https://jiechen.dev/",
         completed: true,
-        stack: "TypeScript,Next.js,TailwindCSS",
+        stack: "TypeScript, Next.js, TailwindCSS",
         thumbnail: "/thumbnails/jiechen.dev.jpg"
     },
     {
@@ -141,7 +141,7 @@ export const PROJECTS = [
         repo: "https://github.com/jiechenmc/BiBi",
         demo: "https://blog.jiechen.dev/",
         completed: true,
-        stack: "Next.js,Markdown",
+        stack: "Next.js, Markdown",
         thumbnail: "/thumbnails/blog.png"
     }, {
         title: "Packed",
@@ -153,6 +153,16 @@ export const PROJECTS = [
         completed: true,
         stack: "Azure,eBPF,React,Docker,C,Go",
         thumbnail: "/thumbnails/packed.png"
+    }, {
+        title: "Freon",
+        date: "June 2024",
+        description:
+            "One click deployment of Minecraft servers utilizing Terraform for AWS EC2 provisioning, Ansible for configuration, and Jenkins to create continuous deployment pipelines on remote triggers",
+        repo: "https://github.com/jiechenmc/Freon.git",
+        demo: "#",
+        completed: true,
+        stack: "Amazon Web Services, Docker, Terraform, Ansible, Jenkins",
+        thumbnail: "/thumbnails/freon.png"
     }
 ];
 
