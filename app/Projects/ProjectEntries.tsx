@@ -154,15 +154,15 @@ export const PROJECTS = [
         stack: "Azure,eBPF,React,Docker,C,Go",
         thumbnail: "/thumbnails/packed.png"
     }, {
-        title: "Freon",
+        title: "Nexus",
         date: "June 2024",
         description:
             "One click deployment of Minecraft servers utilizing Terraform for AWS EC2 provisioning, Ansible for configuration, and Jenkins to create continuous deployment pipelines on remote triggers",
-        repo: "https://github.com/jiechenmc/Freon.git",
+        repo: "https://github.com/jiechenmc/Nexus.git",
         demo: "#",
         completed: true,
         stack: "Amazon Web Services, Docker, Terraform, Ansible, Jenkins",
-        thumbnail: "/thumbnails/freon.png"
+        thumbnail: "/thumbnails/nexus.png"
     }
 ];
 
