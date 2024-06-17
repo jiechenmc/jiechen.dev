@@ -144,15 +144,15 @@ export const PROJECTS = [
         stack: "Next.js, Markdown",
         thumbnail: "/thumbnails/blog.png"
     }, {
-        title: "Packed",
+        title: "Tracer",
         date: "May 2024",
         description:
             "Kernel-level packet filter with eBPF xdp.",
-        repo: "https://github.com/jiechenmc/Packed.git",
+        repo: "https://github.com/jiechenmc/Tracer.git",
         demo: "#",
         completed: true,
         stack: "Azure,eBPF,React,Docker,C,Go",
-        thumbnail: "/thumbnails/packed.png"
+        thumbnail: "/thumbnails/tracer.png"
     }, {
         title: "Nexus",
         date: "June 2024",
