@@ -12,7 +12,7 @@ const Education = () => {
                 <Image className="" src="/stonybrook.png" width="96" height="96" alt="Stony Brook University Logo" />
                 <div className="whitespace-nowrap ">
                     <p className="font-bold w-36 ">Stony Brook University</p>
-                    <p className="font-bold w-36 ">M.S. — Computer Science</p>
+                    <p className="font-bold w-36 ">B.S./M.S. — Computer Science</p>
                     <small className="font-bold ">Expected Graduation: May 2026</small>
                     <br />
                     <small className="font-bold">GPA: {GPA}</small>
