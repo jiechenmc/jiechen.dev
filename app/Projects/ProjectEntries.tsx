@@ -144,16 +144,6 @@ export const PROJECTS = [
         stack: "Next.js, Markdown",
         thumbnail: "/thumbnails/blog.png"
     }, {
-        title: "Watcher",
-        date: "May 2024",
-        description:
-            "Kernel-level packet filter with eBPF XDP.",
-        repo: "https://github.com/jiechenmc/Watcher.git",
-        demo: "#",
-        completed: true,
-        stack: "Azure,eBPF,React,Docker,C,Go",
-        thumbnail: "/thumbnails/tracer.png"
-    }, {
         title: "Nexus",
         date: "June 2024",
         description:
@@ -163,7 +153,27 @@ export const PROJECTS = [
         completed: true,
         stack: "Amazon Web Services, Docker, Terraform, Ansible, Jenkins",
         thumbnail: "/thumbnails/nexus.png"
-    }
+    }, {
+        title: "Pill Pal",
+        date: "June 2024",
+        description:
+            "Serverless Medicine Reminder App",
+        repo: "https://github.com/jiechenmc/PillPal.git",
+        demo: "#",
+        completed: true,
+        stack: "Amazon Web Services,Terraform,Next.js,Node.js,Jenkins",
+        thumbnail: "/thumbnails/pillpal.png"
+    }, {
+        title: "Watcher",
+        date: "July 2024",
+        description:
+            "Kernel-level packet filter with eBPF XDP.",
+        repo: "https://github.com/jiechenmc/Watcher.git",
+        demo: "#",
+        completed: true,
+        stack: "Azure,eBPF,React,Docker,C,Go",
+        thumbnail: "/thumbnails/watcher.png"
+    },
 ];
 
 
