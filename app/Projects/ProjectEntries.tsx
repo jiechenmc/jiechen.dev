@@ -154,11 +154,11 @@ export const PROJECTS = [
         stack: "Amazon Web Services, Docker, Terraform, Ansible, Jenkins",
         thumbnail: "/thumbnails/nexus.png"
     }, {
-        title: "Pill Pal",
-        date: "June 2024",
+        title: "Unita",
+        date: "July 2024",
         description:
             "Serverless Medicine Reminder App",
-        repo: "https://github.com/jiechenmc/PillPal.git",
+        repo: "https://github.com/jiechenmc/Unita.git",
         demo: "#",
         completed: true,
         stack: "Amazon Web Services,Terraform,Next.js,Node.js,Jenkins",
