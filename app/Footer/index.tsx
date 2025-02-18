@@ -17,7 +17,7 @@ const Footer = () => {
                             <Icon icon="mdi:github" width="24" height="24" />
                         </button>
                     </Link>
-                    <Link href="https://www.linkedin.com/in/jiechen-sbu/">
+                    <Link href="https://www.linkedin.com/in/jie-chen-sbu/">
                         <button className="btn dark:fill-white bg-transparent w-fit h-fit border-0 hover:bg-gray-300 dark:hover:bg-gray-30">
                             <Icon icon="mdi:linkedin" width="24" height="24" />
                         </button>
